@@ -1,0 +1,15 @@
+[package]
+name = "databad"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.57"
+convergence = "0.6.0"
+crossbeam-channel = "0.5.6"
+rusqlite = { version = "0.27.0", features = ["bundled", "column_decltype"] }
+sqlparser = "0.20.0"
+tokio = { version = "1.21.0", features = ["full"] }
+tokio-rusqlite = "0.2.0"
